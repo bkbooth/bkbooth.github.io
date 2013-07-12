@@ -1,0 +1,10 @@
+
+RewriteEngine on
+
+RewriteCond %{QUERY_STRING} ^[^=]*$
+RewriteCond %{QUERY_STRING} %2d|\- [NC]
+RewriteRule .? . [F,L]
+
+RewriteCond %{HTTP_HOST} ^wishlist.bkbooth.com.au$
+RewriteRule ^/?$ "http\:\/\/www\.wishlistr\.com\/bkbooth\/" [R=301,L]
+
