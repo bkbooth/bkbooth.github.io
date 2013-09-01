@@ -1,3 +1,6 @@
-name: Your New Jekyll Site
+name: bkbooth.com.au | I was thinking...
 markdown: redcarpet
-pygments: false
+pygments: true
+timezone: Australia/Sydney
+paginate: 5
+permalink: pretty

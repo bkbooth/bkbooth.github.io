@@ -1,0 +1,102 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h3 class="panel-title">Posts</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="list-unstyled">
+            {% for post in site.posts %}
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}</a><br />
+                <small>{{ post.date | date_to_string }}</small>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h3 class="panel-title">Contact</h3>
+    </div>
+    <table class="table">
+        <tbody>
+            <tr>
+                <td style="width: 30px;"><span class="glyphicon glyphicon-user"></span></td>
+                <td>Benjamin Booth</td>
+            </tr>
+            <tr>
+                <td><span class="glyphicon glyphicon-envelope"></span></td>
+                <td>
+                    <script type="text/javascript" language="javascript">
+                    <!--
+                    // Email obfuscator script 2.1 by Tim Williams, University of Arizona
+                    // Random encryption key feature by Andrew Moulden, Site Engineering Ltd
+                    // This code is freeware provided these four comment lines remain intact
+                    // A wizard to generate this code is at http://www.jottings.com/obfuscator/
+                    { coded = "DrDnnLO@ASZMd.8nS"
+                        key = "4KgF25OWis8v9LGaY0eAjlbfIMPkmCQ7Zo1uBwdD6H3yrSETVpnhUqXcRNtxzJ"
+                        shift=coded.length
+                        link=""
+                        for (i=0; i<coded.length; i++) {
+                            if (key.indexOf(coded.charAt(i))==-1) {
+                                ltr = coded.charAt(i)
+                                link += (ltr)
+                            }
+                            else {
+                                ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+                                link += (key.charAt(ltr))
+                            }
+                        }
+                        document.write("<a href='mailto:"+link+"'>bkbooth at gmail dot com</a>")
+                    }
+                    //-->
+                    </script>
+                    <noscript>JavaScript required to see my email.</noscript>
+                </td>
+            </tr>
+            <tr>
+                <td><span class="glyphicon glyphicon-phone"></span></td>
+                <td>+61 400 382 358</td>
+            </tr>
+            <tr>
+                <td><span class="icon icon-github"></span></td>
+                <td>/ <a href="https://github.com/bkbooth" target="_blank">bkbooth</a></td>
+            </tr>
+            <tr>
+                <td><span class="icon icon-linkedin"></span></td>
+                <td>/ <a href="http://au.linkedin.com/in/bkbooth/" target="_blank">bkbooth</a></td>
+            </tr>
+            <tr>
+                <td><span class="icon icon-facebook"></span></td>
+                <td>/ <a href="https://facebook.com/bkbooth" target="_blank">bkbooth</a></td>
+            </tr>
+            <tr>
+                <td><span class="icon icon-twitter"></span></td>
+                <td><a href="https://twitter.com/bkbooth11" target="_blank">@bkbooth11</a></td>
+            </tr>
+        </tbody>
+    </table>
+    <!--<ul class="list-group">
+        <li class="list-group-item">
+            <span class="glyphicon glyphicon-user"></span> Benjamin Booth
+        </li>
+        <li class="list-group-item">
+            <span class="glyphicon glyphicon-envelope"></span> bkbooth at gmail dot com
+        </li>
+        <li class="list-group-item">
+            <span class="glyphicon glyphicon-phone"></span> +61 400 382 358
+        </li>
+        <li class="list-group-item">
+            <span class="icon icon-github"></span> / bkbooth
+        </li>
+        <li class="list-group-item">
+            <span class="icon icon-linkedin"></span> / bkbooth
+        </li>
+        <li class="list-group-item">
+            <span class="icon icon-facebook"></span> / bkbooth
+        </li>
+        <li class="list-group-item">
+            <span class="icon icon-twitter"></span> @bkbooth11
+        </li>
+    </ul>-->
+</div>
