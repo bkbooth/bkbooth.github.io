@@ -1,16 +1,20 @@
----
-layout: default
-title: Home
----
-
-<div id="home">
-    <h1>I was thinking...</h1>
-    <ul class="posts">
-        {% for post in site.posts %}
-            <li>
-                <span>{{ post.date | date_to_string }}</span> &raquo;
-                <a href="{{ post.url }}">{{ post.title }}</a>
-            </li>
-        {% endfor %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ben Booth | bkbooth.com.au</title>
+</head>
+<body>
+    <h1>
+        Ben Booth<br />
+        <small><a href="http://bkbooth.com.au/">bkbooth.com.au</a></small>
+    </h1>
+    <p>GitHub Projects:</p>
+    <ul>
+        <li>
+            BlockDrop - A shameless Tetris clone using HTML5/CSS3/JavaScript<br />
+            <a href="https://github.com/bkbooth/BlockDrop">GitHub</a> | <a href="http://gh.bkbooth.com.au/BlockDrop/">Live Demo</a>
+        </li>
+        <li>A bunch of old Joomla! modules, ewww.</li>
     </ul>
-</div>
+</body>
+</html>
