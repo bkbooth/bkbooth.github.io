@@ -1,0 +1,6 @@
+{
+  "name": "Ben Booth",
+  "tagline": "@bkbooth11 | bkbooth.me",
+  "body": "### GitHub Projects:\r\n\r\n* **Elmstagram** - A basic UI-clone of Instagram using Elm\r\n  * [GitHub](https://github.com/bkbooth/Elmstagram)\r\n  * [Demo](https://elmstagram.bkbooth.me)\r\n  * [Building a basic UI-clone of Instagram using Elm - Part 1](https://bkbooth.me/building-a-basic-ui-clone-of-instagram-using-elm-part-1/)\r\n  * [Part 2](https://bkbooth.me/building-a-basic-ui-clone-of-instagram-using-elm-part-2/)\r\n  * [Part 3](https://bkbooth.me/building-a-basic-ui-clone-of-instagram-using-elm-part-3/)\r\n* **promise** - A JavaScript Promise implementation\r\n  * [GitHub](https://github.com/bkbooth/promise)\r\n  * [Writing a JavaScript Promises Library](https://bkbooth.me/writing-a-javascript-promises-library/)\r\n* **BlockDrop** - A shameless Tetris clone using HTML5/CSS3/JavaScript\r\n  * [GitHub](https://github.com/bkbooth/BlockDrop)\r\n  * [Demo](https://blockdrop.bkbooth.me/)",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
